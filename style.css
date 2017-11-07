@@ -1,0 +1,276 @@
+.header{
+	width: 100%;
+	height: 3.5em;
+	background: #7289da;
+}
+.desktopHeader {
+	height: 3.5em;
+	padding: 0 8px;
+}
+.elementi {
+	height: 3.5em;
+	padding: 0 30px;
+}
+.headerLogo {
+	float: left;
+	display: inline-block;
+	width: 130px;
+	height: 36px;
+	margin-top: 5px;
+    margin-right: 20px;
+}
+.headerNavigation {
+	float: left;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+.listElements {
+	float: left;
+	display: inline-block;
+    position: relative;
+    opacity: .8;
+}
+.headerNavigation>li:first-child a {
+    padding: 15px 10px 15px 0;
+}
+.headerNavigation a {
+    padding: 15px 10px;
+}
+.listElements a {
+	color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity .2s;
+}
+.desktopListItem a {
+	display: inline-block;
+	display: flex;
+	margin: 10px;
+	color: #fff;
+    text-decoration: none;
+    transition: opacity .2s;
+}
+
+.desktopListItem1 a {
+	display: inline-block;
+	display: flex;
+	margin: 10px;
+	color: #fff;
+    text-decoration: none;
+    transition: opacity .2s;
+    border:2px solid;
+    border-radius: 20px;
+    padding: 5px 17px
+}
+.desktopHeaderNavRight {
+    align-items: center;
+    display: flex;
+    opacity: .8;
+	padding-left: 80%;
+	position:absolute;
+	list-style-type: none;
+}
+
+body {
+	background: #7289da;
+}
+h1 {
+	font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+.gridContent {
+	box-sizing: border-box;
+    width: 1000px;
+    height: 250px;
+    padding: 72px 50px 0;
+    margin-left: 160px
+}
+
+p {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 18px;
+    font-weight: 500px;
+    line-height: 24px;
+    margin-top: 12px;
+}
+.downloadNow a {
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	background: #fff;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-left: 550px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #7289da;
+}
+
+.imgTV {
+    margin: 200px 380px;
+    display: block;
+    position: absolute;
+}
+
+.imgSmall {
+	position:absolute;
+	margin-top: 120px;
+	margin-left: 450px
+	}
+
+.divImg {
+    position: relative;
+    display: block;
+    height: 700px
+}
+
+.imgLapTop {
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 320px
+}
+
+.imgTelephone {
+	position: absolute;
+	margin-top: 420px;
+	margin-left:270px;
+}
+
+.imgTablet {
+	position: absolute;
+	margin-top: 415px;
+	margin-left: 120px;
+}
+
+.imgdzojstik {
+	position: absolute;
+	margin-top: 565px;
+	margin-left: 420px
+}
+
+.imgNovcic {
+	position: absolute;
+	margin-left: 715px;
+	margin-top:45px;
+}
+
+.imgNovcic2 {
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 240px
+}
+
+.imgBomba {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 200px;
+}
+
+.divLearn {
+	border: 1px solid;
+	margin-left: 600px;
+	margin-top: 50px;
+	border-radius: 3px;
+	box-shadow: 0 2px 6px 0;
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 50px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.divFooter {
+	width: 1100px;
+	height: 250px;
+	margin-left:130px;
+	display: inline-block;
+	margin: 100px;
+}
+
+.footerNavigation {
+	justify-content: space-between;
+	position: absolute;
+	display: flex;
+	margin: 0 
+}
+
+.navigationSection {
+	height: 120px;
+	width: 60px;
+	position: relative;
+    display: inline-block;
+    margin:0 80px ;
+}
+
+.imgFooter {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	display: block;
+}
+
+.navigationHeader {
+	color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+
+.navigationA {
+	font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerReady {
+	border-top: 1px;
+	-webkit-box-flex: 1;
+    flex: 1;
+    display: inline-block;
+    flex-direction: column-reverse;
+    margin-top: 200px
+}
+
+.footerh1 {
+	display: inline-block;
+	position: absolute;
+	font-size: 26px
+}
+
+.footerh2 {
+	display: inline-block;
+	position: absolute;
+	margin-top: 60px;
+	font-size: 14px
+}
+
+.footerSign {
+	font-size: 15px;
+	color: #fff;
+	padding-top: 15px;
+	padding-left: 32px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+
+.divSing {
+	width: 150px;
+	height: 50px;
+	margin-left: 800px;
+	margin-top: 30px;
+	border:1px;
+	border-radius: 3px;
+	display: block;
+	-webkit-box-flex: 1;
+	background-color: #60566f;
+}
